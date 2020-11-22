@@ -26,7 +26,8 @@ html {
     background-color: darkgrey;
 }
 .card{
-    border: solid 1px black;
+    border: solid 3px blue;
+    border-bottom: cornflowerblue;
     border-radius: 4px;
     padding: 0px 20px 30px;
     margin: 30px 700px 0 700px;
@@ -34,7 +35,7 @@ html {
     
 }
 .card img{
-    width: 100%;
+    width: 50%%;
     padding-top: 20px;
 }
 </style>

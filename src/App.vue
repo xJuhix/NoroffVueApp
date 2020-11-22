@@ -6,11 +6,6 @@
 </template>
 
 <script>
-  (function () {
-    localStorage.setItem('username', 'CrazyChef');
-    localStorage.setItem('password', '13579');
-  })();
-
 export default {
   name: 'App',
 }
