@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  (function () {
+    localStorage.setItem('username', 'CrazyChef');
+    localStorage.setItem('password', '13579');
+  })();
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
